@@ -23,7 +23,7 @@ function currentLine(deliLine){
     current += i+1;
     current += ". "
     current += deliLine[i];
-    if(i<deliLine.length) current += ", "
+    if(i<deliLine.length) current += ", ";
     i++;
     }
   
