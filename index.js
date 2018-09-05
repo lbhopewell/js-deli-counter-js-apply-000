@@ -27,11 +27,11 @@ function currentLine(deliLine){
     var j = 0;
     while(j<deliLine.length-1){
     current += ", "
-    j++
+    j++;
     }
-    i++
+    i++;
     }
-    
+  
   }
 return "The line is currently: " + current
 }
