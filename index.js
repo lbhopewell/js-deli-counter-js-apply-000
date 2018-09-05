@@ -19,13 +19,12 @@ function currentLine(deliLine){
     return "The line is currently empty."
   }else{
     var i=0
-    var 
     while(i<deliLine.length){
     current += i+1;
     current += ". "
     current += deliLine[i];
     var j = 0;
-    while(j<deliLine.length-1){
+  
     current += ", "
     j++;
     }
