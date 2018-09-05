@@ -15,7 +15,7 @@ function nowServing(deliLine){
 
 function currentLine(deliLine){
   var current = '';
-  if(deliLine.length ===0){
+  if(deliLine.length===0){
     return "The line is currently empty."
   }else{
     var i=0
@@ -23,7 +23,7 @@ function currentLine(deliLine){
     current += i+1;
     current += ". "
     current += deliLine[i];
-    current += ", "
+    if(i<deliLine.length) current += ", "
     i++;
     }
   
